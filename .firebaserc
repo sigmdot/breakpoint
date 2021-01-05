@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "breakpoint-cfec7": {
+      "hosting": {
+        "breakpoint": [
+          "breakpoint-cfec7"
+        ]
+      }
+    }
+  }
+}
