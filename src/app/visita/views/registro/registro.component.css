@@ -1,3 +1,32 @@
 #registroView{
     min-height: 100vh;
 }
+#datosPersonalesRegistro{
+    min-height: 200px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+#imgLogo{
+    height: 100px;
+    width: auto;
+
+}
+#imgLogo img{
+    object-fit: cover;
+    height: 100%;
+}
+#datosConsolaSwitch{
+    min-height: 100px;
+    height: auto;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+#datosRegistro{
+    min-height: 250px;
+    height: auto;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}

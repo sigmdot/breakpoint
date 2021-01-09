@@ -7,6 +7,7 @@ import { RegistroComponent } from './views/registro/registro.component';
 import { LoginComponent } from './views/login/login.component';
 
 
+
 @NgModule({
   declarations: [VisitaComponent, RegistroComponent, LoginComponent],
   imports: [

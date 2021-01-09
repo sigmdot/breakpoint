@@ -1,3 +1,92 @@
-<div id="registroView" class="container row m-0">
-    
+<div id="registroView" class="container  ">
+    <div class="row   justify-content-center">
+        <div id="imgLogo">
+            <img src="https://www.qbrobotics.com/wp-content/uploads/2018/03/sample-logo-170x150.png" alt="">
+        </div>
+        <div class="col-12 p-2 mb-2" id="datosPersonalesRegistro">
+            <h2 class="mb-1">Datos personales</h2>
+            <form action="" class="mt-2">
+                <div class="form-row">
+                    <div class="form-group col-lg-6 col-md-6 col-12">
+                        <label for="inputNombre">Nombres</label>
+                        <input type="text" class="form-control" id="inputNombre" placeholder="Travis Marth">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputApellidos">Apellidos</label>
+                        <input type="text" class="form-control" id="inputApellidos" placeholder="Touchdown Lowell">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-lg-12 col-md-12 col-12">
+                        <label for="regionPerteneciente">Región</label>
+                        <select class="custom-select" id="regionPerteneciente">
+                            <option selected>Selecciona tú región</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+               <!--  <div class="form-row">
+                    <label class="p-1 mb-1">Un avatar para tú perfil</label>
+                    <div class="form-group col-lg-12 col-md-12 col-12 custom-file">
+                        <input type="file" class="custom-file-input" id="imagenUsuario">
+                        <label class="custom-file-label" for="imagenUsuario">Elige una imagen</label>
+                        <small>Trata que sea una imagen de tamaño 150 x 150 px</small>
+                    </div>
+                </div> -->
+            </form>
+        </div>
+        <div class="col-12 p-2" id="datosConsolaSwitch">
+            <h2 class="mb-1">Datos de su consola</h2>
+            <form action="" class="mt-2 py-2">
+                <div class="form-row">
+                    <div class="form-group col-lg-12 col-md-12 col-12">
+                        <label for="inputCodigoAmigo">Codigo Amigo</label>
+                        <input type="text" class="form-control" id="inputCodigoAmigo" placeholder="SW-XXXX-XXXX-XXXX">
+                    </div>
+                </div>
+                <!-- <div class="row m-0">
+                    <div class="form-check col-lg-12 col-md-12 col-12">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Acepto que los datos sean compartidos en la pagina</label>
+                    </div>
+                </div> -->
+            </form>
+        </div>
+        <div class="col-12 p-2 mt-2" id="datosRegistro">
+            <h2 class="mb-1">Datos de registro</h2>
+            <form action="" class="mt-2 py-2">
+                <div class="form-row">
+                    <div class="form-group col-lg-6 col-md-6 col-12">
+                        <label for="inputCorreo">Correo electronico</label>
+                        <input type="email" class="form-control" id="inputCorreo" placeholder="tuCorreo@email.com">
+                    </div>
+                    <div class="form-group col-lg-6 col-md-6 col-12">
+                        <label for="inputCorreoValidar">Confirmar correo </label>
+                        <input type="email" class="form-control" id="inputCorreoValidar" placeholder="tuCorreo@email.com">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-lg-6 col-md-6 col-12">
+                        <label for="inputCorreo">Contraseña</label>
+                        <input type="password" class="form-control" id="inputPass" placeholder="Contraseña">
+                    </div>
+                    <div class="form-group col-lg-6 col-md-6 col-12">
+                        <label for="inputCorreoValidar">Confirmar contraseña </label>
+                        <input type="password" class="form-control" id="inputPassValidar" placeholder="Contraseña">
+                    </div>
+                </div>
+                <div class="row m-0">
+                    <div class="form-check col-lg-12 col-md-12 col-12">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Acepto que los datos sean compartidos en la pagina</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="btn btn-dark mt-2">
+            Registrarme
+        </div>
+    </div>
 </div>
