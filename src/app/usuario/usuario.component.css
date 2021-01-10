@@ -1,6 +1,19 @@
 #containerUsuarioModule{
-    min-height: 100vh;
+    height: 100vh;
 }
 #sidenavBar{
     background-color: black;
+}
+#header{
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+    height: 60px;
+    display: flex;
+}
+#routerOut{
+    padding-top: 60px;
 }

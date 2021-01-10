@@ -1,0 +1,7 @@
+#homeView{
+    height: 100%;
+    overflow-y: scroll;
+}
+#homeView::-webkit-scrollbar {
+    display: none;
+  }
