@@ -1,1 +1,13 @@
-<p>usuario works!</p>
+<mat-sidenav-container id="containerUsuarioModule" autosize>
+    <mat-sidenav #sidenav mode="over" id="sidenavBar">
+        <usuario-sidenav></usuario-sidenav>
+    </mat-sidenav>
+    <mat-sidenav-content>    
+        <div id="header">
+            <button mat-button (click)="sidenav.toggle()">sidenav.toggle()</button>
+        </div>
+        <div id="routerOut">
+            <router-outlet></router-outlet>
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>

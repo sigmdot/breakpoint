@@ -30,3 +30,16 @@
     color: black;
     border: 1px solid black;
 }
+#botonRegistro{
+    border: 1px solid white;
+    margin-top:5px;
+    padding: 3px;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    background-color:black;
+    font-weight: bold;
+    color: white;
+}
+#botonRegistro:hover{
+    filter: invert(100%);
+}
