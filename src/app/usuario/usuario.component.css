@@ -17,3 +17,22 @@
 #routerOut{
     padding-top: 60px;
 }
+#buttonHamburger{
+    border: 0px;
+    border-right: 1px solid black;
+    background: #ffffff;
+    transform: 5s;
+}
+#buttonHamburger:hover{
+    filter: invert(100%);
+}
+#imgLogo{
+    height: 100%;
+}
+#imgLogo img{
+    height: 100%;
+    object-fit: cover;
+}
+#headerSinImagen{
+    width: calc(100% - 65px);
+}

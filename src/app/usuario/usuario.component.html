@@ -2,9 +2,16 @@
     <mat-sidenav #sidenav mode="over" id="sidenavBar">
         <usuario-sidenav></usuario-sidenav>
     </mat-sidenav>
-    <mat-sidenav-content>    
+    <mat-sidenav-content>
         <div id="header">
-            <button mat-button (click)="sidenav.toggle()">sidenav.toggle()</button>
+            <button id="buttonHamburger" mat-button (click)="sidenav.toggle()">
+                <fa-icon [icon]="faBars" size="3x" [fixedWidth]="true"></fa-icon>
+            </button>
+            <div id="headerSinImagen" class="h-100 row m-0 justify-content-center">
+                <div id="imgLogo">
+                    <img src="https://www.qbrobotics.com/wp-content/uploads/2018/03/sample-logo-170x150.png">
+                </div>
+            </div>
         </div>
         <div class="h-100" id="routerOut">
             <router-outlet></router-outlet>
