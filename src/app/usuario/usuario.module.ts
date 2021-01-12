@@ -8,9 +8,10 @@ import { HomeComponent } from './views/home/home.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { SidenavComponent } from './components/general/sidenav/sidenav.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MatchmakingcardComponent } from './components/home/matchmakingcard/matchmakingcard.component';
 
 @NgModule({
-  declarations: [UsuarioComponent, HomeComponent, SidenavComponent],
+  declarations: [UsuarioComponent, HomeComponent, SidenavComponent, MatchmakingcardComponent],
   imports: [
     CommonModule,
     UsuarioRoutingModule,

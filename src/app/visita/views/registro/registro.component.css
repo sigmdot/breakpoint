@@ -10,7 +10,6 @@
 #imgLogo{
     height: 100px;
     width: auto;
-
 }
 #imgLogo img{
     object-fit: cover;
