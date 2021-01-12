@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-matchmakingcard',
+  selector: 'usuario-matchmakingcard',
   templateUrl: './matchmakingcard.component.html',
   styleUrls: ['./matchmakingcard.component.css']
 })

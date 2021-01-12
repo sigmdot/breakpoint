@@ -1,0 +1,22 @@
+#matchCard{
+    height: 130px;
+    width: 250px;
+    border: 1px solid black;
+}
+#infoSala{
+    height: 70px;
+    border-bottom: 1px solid black;
+}
+#ruleSala{
+    height: 60px;
+    background: black;
+}
+#imgAvatar{
+    height: 80%;
+    width: auto;
+    border: 1px solid black;
+    object-fit: cover;
+}
+.transparent{
+    background: transparent;
+}

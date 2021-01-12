@@ -1,6 +1,7 @@
 #homeView{
     height: 100%;
     overflow-y: scroll;
+    padding-top: 10px;
 }
 #homeView::-webkit-scrollbar {
     display: none;
