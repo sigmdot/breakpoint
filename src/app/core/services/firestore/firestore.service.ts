@@ -18,6 +18,7 @@ export class FirestoreService {
 
   constructor(private angularFirestore: AngularFirestore) { }
 
+
   public creatId(): string {
     return this.angularFirestore.createId();
   }
@@ -30,7 +31,7 @@ export class FirestoreService {
   }
 
   public snapshotCollection<type>(path?: string, queryFn?: QueryFn): Observable<type[]> {
-    const collection: AngularFirestoreCollection<type> = this.angularFirestore.collection<type>(path, queryFn);
+    const collection: AngularFirestoreCollection<type> = this.angularFirestore.collection<type>(path as string, queryFn);
     return collection.snapshotChanges()
       .pipe(map((snapshot: DocumentChangeAction<type>[]) => {
         let data: type[] = snapshot.map((doc: DocumentChangeAction<type>) => {
@@ -41,7 +42,7 @@ export class FirestoreService {
   }
 
   public snapshotDocument<type>(path?: string): Observable<type> {
-    const document: AngularFirestoreDocument<type> = this.angularFirestore.doc<type>(path);
+    const document: AngularFirestoreDocument<type> = this.angularFirestore.doc<type>(path as string);
     return document.snapshotChanges()
       .pipe(map((snapshot: Action<DocumentSnapshot<type>>) => {
         return snapshot.payload.data() as type;

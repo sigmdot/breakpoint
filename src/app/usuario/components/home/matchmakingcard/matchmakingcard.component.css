@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 #matchCard{
     height: 130px;
     width: 250px;
@@ -19,4 +20,13 @@
 }
 .transparent{
     background: transparent;
+}
+#DatosDelMatch{
+    flex-direction: column;
+}
+#DatosDelMatch span{
+    font-family: 'Bebas Neue', cursive;
+}
+.first{
+    font-size: 24px;
 }
