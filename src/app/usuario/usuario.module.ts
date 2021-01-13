@@ -10,6 +10,7 @@ import { SidenavComponent } from './components/general/sidenav/sidenav.component
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MatchmakingcardComponent } from './components/home/matchmakingcard/matchmakingcard.component';
 import { CoreModule } from '../core/core.module';
+import { MatchComponent } from './views/match/match.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { CoreModule } from '../core/core.module';
     HomeComponent,
     SidenavComponent,
     MatchmakingcardComponent,
+    MatchComponent,
   ],
   imports: [
     CommonModule,
