@@ -4,7 +4,15 @@
 
 export const environment = {
   production: false,
-  firebase:{null}
+  firebase: {
+    apiKey: 'AIzaSyCO7_OFPDGLvjHg-yll6qMXgjCqSflC31k',
+    authDomain: 'breakpoint-cfec7.firebaseapp.com',
+    projectId: 'breakpoint-cfec7',
+    storageBucket: 'breakpoint-cfec7.appspot.com',
+    messagingSenderId: '64910435448',
+    appId: '1:64910435448:web:1bb5bf893881848190f98d',
+    measurementId: 'G-SRND1JSVBP',
+  },
 };
 
 /*
