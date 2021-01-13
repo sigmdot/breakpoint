@@ -41,3 +41,6 @@ button{
 button:hover{
     filter: invert(100%);
 }
+.activeLink{
+    filter: invert(100%);
+}
