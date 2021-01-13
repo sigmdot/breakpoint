@@ -1,32 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-#matchCard{
-    height: 130px;
-    width: 250px;
-    border: 1px solid black;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+#matchCard {
+  height: 130px;
+  width: 250px;
+  border: 1px solid black;
 }
-#infoSala{
-    height: 70px;
-    border-bottom: 1px solid black;
+/* #matchCard:after {
+  top: -100%;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  background: #ff7a59;
+  border-radius: 5px;
+  content: "Flipped";
+  transform-origin: left bottom;
+  transform: rotateX(90deg);
+} */
+/* #matchCard:hover {
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+  } */
+/* #matchCard:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+  z-index: 10000;
+} */
+#matchCard:hover {
+  animation: bounce 1s;
+  cursor: pointer;
 }
-#ruleSala{
-    height: 60px;
-    background: black;
+#infoSala {
+  height: 70px;
+  border-bottom: 1px solid black;
 }
-#imgAvatar{
-    height: 80%;
-    width: auto;
-    border: 1px solid black;
-    object-fit: cover;
+#ruleSala {
+  height: 60px;
+  background: black;
 }
-.transparent{
-    background: transparent;
+#imgAvatar {
+  height: 80%;
+  width: auto;
+  border: 1px solid black;
+  object-fit: cover;
 }
-#DatosDelMatch{
-    flex-direction: column;
+.transparent {
+  background: transparent;
 }
-#DatosDelMatch span{
-    font-family: 'Bebas Neue', cursive;
+#DatosDelMatch {
+  flex-direction: column;
 }
-.first{
-    font-size: 24px;
+#DatosDelMatch span {
+  font-family: "Bebas Neue", cursive;
+}
+.first {
+  font-size: 24px;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
 }
