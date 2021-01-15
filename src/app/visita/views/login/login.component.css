@@ -1,0 +1,31 @@
+#loginView{
+    height: 100vh;
+    width: 100vw;
+}
+#imgLogoLogin{
+    height: 100px;
+    width: 115px;
+}
+#imgLogoLogin img{
+    object-fit: cover;
+    height: 100%;
+}
+#loginFormulario{
+    min-height: 320px;
+    border: 1px solid black;
+}
+#formulario{
+    justify-content: center;
+    vertical-align: center;
+}
+#spanLogin{
+    margin-top: -10px;
+}
+#botonIngreso{
+    background-color: #ffffff;
+    border: 1px solid black;
+    width: 100%;
+}
+#botonIngreso:hover{
+    filter: invert(100%);
+}

@@ -11,6 +11,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MatchmakingcardComponent } from './components/home/matchmakingcard/matchmakingcard.component';
 import { CoreModule } from '../core/core.module';
 import { MatchComponent } from './views/match/match.component';
+import { ModulesModule } from '../shared/modules/modules.module';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { MatchComponent } from './views/match/match.component';
     MatSidenavModule,
     FontAwesomeModule,
     CoreModule,
+    ModulesModule
   ],
 })
 export class UsuarioModule {}
