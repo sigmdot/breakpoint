@@ -9,10 +9,6 @@ const routes: Routes = [{
   component: VisitaComponent,
   children:[
     {
-      path:'',
-      redirectTo:'/login'
-    },
-    {
       path:'registro',
       component:RegistroComponent
     },
