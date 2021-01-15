@@ -10,7 +10,7 @@
             <div id="spanLogin" class="text-center">
                 <span>Para poder usar la aplicación, entre a su cuenta</span>
             </div>
-            <form action="" class="py-3">
+            <form [formGroup]="formLogin" class="py-3">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Correo Electronico</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -24,7 +24,7 @@
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
                 </div>
-                <button type="submit" id="botonIngreso" class="btn">Ingresar</button>
+                <button type="submit" id="botonIngreso" class="btn" (click)="login()">Ingresar</button>
             </form>
         </div>
     </div>
