@@ -7,4 +7,5 @@ export interface Match{
     estado: string;
     tipoMatch: string;
     usuarios: string[];
+    rivalFind: boolean;
 }
