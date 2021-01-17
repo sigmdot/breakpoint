@@ -21,17 +21,17 @@ export class LoginComponent implements OnInit {
     const email = this.formLogin.value.correo;
     const pass = this.formLogin.value.pass;
     this.authSvc.loginEmailPass(email, pass).then((e) => {
-      this.router.navigateByUrl('/desktop/home');
-
+      this.router.navigateByUrl('/matchmaking/home');
+      console.log(e);
     }).catch(e => {
       if(e.code === 'auth/invalid-email'){
         this.toastr.warning('correo inválido','Error en los datos');
       }
       else{
         this.toastr.warning('Error en los datos','Datos erroneos');
+        console.log(e);
       }
       this.formLogin.reset('');
-      console.clear();
     });
   }
 

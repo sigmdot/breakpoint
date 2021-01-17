@@ -13,18 +13,15 @@
             <form [formGroup]="formLogin" class="py-3">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Correo Electronico</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" formControlName="correo">
 
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Contraseña</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <input type="password" class="form-control" id="exampleInputPassword1" formControlName="pass">
                 </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
-                </div>
-                <button type="submit" id="botonIngreso" class="btn" (click)="login()">Ingresar</button>
+                <button type="submit" id="botonIngreso" class="btn mb-2" (click)="login()">Ingresar</button>
+                <span class="mt-2">¿No tienes cuenta?, <a [routerLink]="['/registro']">Registrate</a></span>
             </form>
         </div>
     </div>
