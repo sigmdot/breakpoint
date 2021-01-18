@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 #matchCard {
-  height: 130px;
+  height: 150px;
   width: 250px;
   border: 1px solid black;
 }
@@ -35,7 +35,7 @@
   border-bottom: 1px solid black;
 }
 #ruleSala {
-  height: 60px;
+  height: 80px;
   background: black;
 }
 #imgAvatar {
@@ -55,6 +55,10 @@
 }
 .first {
   font-size: 24px;
+}
+.infoIcons{
+  height: 50%;
+  border: 1px solid white;
 }
 @keyframes bounce {
   0%,
